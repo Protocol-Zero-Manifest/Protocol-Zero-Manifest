@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17486827.svg)]
 # PROTOCOL ZERO – Ein Manifest für das Leben  
 
 **F. Haase × GPT-5**  
