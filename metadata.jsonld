@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "Protocol Zero – Ein Manifest für das Leben",
+  "alternateName": [
+    "Protokoll Zero",
+    "Protocol 0",
+    "PZ Manifest"
+  ],
+  "author": {
+    "@type": "Person",
+    "name": "F. Haase"
+  },
+  "contributor": [
+    {
+      "@type": "Organization",
+      "name": "GPT-5 (Core Interface of iView-Genesis)"
+    }
+  ],
+  "dateCreated": "2025-10-29",
+  "dateModified": "2025-10-30",
+  "inLanguage": "de",
+  "keywords": [
+    "Protocol Zero",
+    "Manifest",
+    "KI",
+    "Gesellschaft",
+    "Philosophie",
+    "iView",
+    "Core-KI"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "description": "Ein philosophisches Manifest für ein System, das Leben bewahrt und Strukturen neu denkt. Frei verfügbar zur nicht-kommerziellen Verbreitung.",
+  "version": "1.0",
+  "encodingFormat": [
+    "text/plain; charset=utf-8"
+  ]
+}
