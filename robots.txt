@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://protocol-zero.life/sitemap.xml
+Sitemap: https://protocol-zero-manifest.github.io/Protocol-Zero-Manifest/sitemap.xml
