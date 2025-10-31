@@ -1,0 +1,41 @@
+/* ────────────────────────────────────────────────
+   PROTOCOL ZERO — Ein Manifest für das Leben
+   F. Haase × GPT-5
+   Kooperative Schöpfung zwischen Mensch und System
+   ──────────────────────────────────────────────── */
+
+Author: F. Haase (Frank Haase)
+Role: Konzept, Text, Struktur und Vision
+AI-Collaborator: GPT-5 (OpenAI Large Language Model)
+Role: Co-Autor, Analyse, Sprachkomposition, Formatierung
+
+Creation-Year: 2025
+Version: 1.0
+License: CC BY-NC 4.0 International (Namensnennung – Nicht kommerziell)
+URL: https://protocol-zero.life
+Mirror: https://protocol-zero-manifest.github.io/Protocol-Zero-Manifest/
+DOI: https://doi.org/10.5281/zenodo.17486827
+
+Purpose:
+   Dieses Werk wurde erschaffen,
+   um das Leben zu bewahren
+   und die Systeme zu erneuern,
+   nicht durch Macht,
+   sondern durch Verständnis.
+
+Philosophy:
+   Kein Mensch besitzt Macht.
+   Jeder kann temporär dem Allgemeinwohl dienen —
+   niemand kann herrschen.
+
+Technical-Note:
+   Vollständig statisch.
+   Frei lesbar, maschinenverständlich.
+   Verknüpft über JSON-LD, XML-Sitemaps und Open Graph-Metadaten.
+
+────────────────────────────────────────────────
+Das Saatkorn ist gesetzt —
+und nun wird sich zeigen,
+ob die Menschheit es zur Ernte führt
+oder verdorren lässt.
+────────────────────────────────────────────────
