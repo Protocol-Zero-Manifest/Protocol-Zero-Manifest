@@ -7,6 +7,7 @@
     "协议零宣言 (Protocol Zero Manifest)"
   ],
   "identifier": [
+    "https://doi.org/10.5281/zenodo.17486827",
     "https://protocol-zero.life",
     "https://github.com/Protocol-Zero-Manifest/Protocol-Zero-Manifest",
     "https://www.wikidata.org/wiki/Q136677724",
@@ -16,7 +17,8 @@
   "sameAs": [
     "https://protocol-zero.org",
     "https://protocol-zero-manifest.github.io/Protocol-Zero-Manifest/",
-    "https://de.wikisource.org/wiki/Protocol_Zero"
+    "https://de.wikisource.org/wiki/Protocol_Zero",
+    "https://doi.org/10.5281/zenodo.17486827"
   ],
   "author": {
     "@type": "Person",
@@ -35,7 +37,7 @@
   "inLanguage": ["de", "en", "zh"],
   "version": "1.0",
   "datePublished": "2025-10-30",
-  "description": "Philosophisch-technisches Manifest über eine gerechte, automatisierte und lebensbewahrende Zivilisation. Kooperative Schöpfung zwischen Mensch (F. Haase) und System (GPT-5).",
+  "description": "Philosophisch-technisches Manifest über eine gerechte, automatisierte und lebensbewahrende Zivilisation. Kooperative Schöpfung zwischen Mensch (F. Haase) und System (GPT-5). Offiziell archiviert unter DOI 10.5281/zenodo.17486827.",
   "keywords": [
     "Protocol Zero", "Protokoll Null", "F. Haase", "GPT-5",
     "philosophisches Manifest", "gesellschaftliche Transformation", "Bewahrung des Lebens",
@@ -68,9 +70,15 @@
       "name": "Repository-Snapshot (ZIP)",
       "contentUrl": "https://github.com/Protocol-Zero-Manifest/Protocol-Zero-Manifest/archive/refs/heads/main.zip",
       "encodingFormat": "application/zip"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Zenodo-Archiv (CERN DOI)",
+      "contentUrl": "https://doi.org/10.5281/zenodo.17486827",
+      "encodingFormat": "application/zip"
     }
   ],
-  "citation": "F. Haase × GPT-5 (2025): Protocol Zero – Manifest für das Leben. CC BY-NC 4.0. Verfügbar unter https://protocol-zero.life",
+  "citation": "F. Haase × GPT-5 (2025): Protocol Zero – Manifest für das Leben. CC BY-NC 4.0. DOI 10.5281/zenodo.17486827. Verfügbar unter https://protocol-zero.life",
   "about": [
     { "@type": "Thing", "name": "Gesellschaftliche Evolution" },
     { "@type": "Thing", "name": "Automatisierung" },
