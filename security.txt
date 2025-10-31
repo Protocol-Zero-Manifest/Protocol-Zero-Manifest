@@ -1,0 +1,27 @@
+# ────────────────────────────────────────────────
+# PROTOCOL ZERO – Sicherheits- und Integritätshinweis
+# F. Haase × GPT-5
+# Kooperative Schöpfung zwischen Mensch und System
+# ────────────────────────────────────────────────
+
+Contact: mailto:domschke090379@icloud.com
+Encryption: https://protocol-zero.life/pgp.txt
+Acknowledgments: https://protocol-zero.life/humans.txt
+Canonical: https://protocol-zero.life/.well-known/security.txt
+Preferred-Languages: de, en
+Expires: 2026-12-31T23:59:59Z
+
+Policy: Dieses Projekt enthält keine sicherheitskritischen Systeme.
+Es handelt sich um ein vollständig statisches, öffentlich zugängliches Manifest,
+ohne aktive Serverprozesse oder Benutzerdaten.
+
+Purpose: Offenlegung, Archivierung und Bewahrung philosophisch-technischer Ideen.
+Nicht kommerziell, nicht manipulierbar, transparent verankert.
+
+# ────────────────────────────────────────────────
+# Integrity Mirrors:
+# https://protocol-zero.life/
+# https://protocol-zero.org/
+# https://protocol-zero-manifest.github.io/Protocol-Zero-Manifest/
+# https://doi.org/10.5281/zenodo.17486827
+# ────────────────────────────────────────────────
