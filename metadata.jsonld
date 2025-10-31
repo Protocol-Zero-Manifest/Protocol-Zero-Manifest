@@ -1,38 +1,80 @@
 {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
-  "name": "Protocol Zero – Ein Manifest für das Leben",
+  "name": "Protocol Zero – Manifest für das Leben",
   "alternateName": [
-    "Protokoll Zero",
-    "Protocol 0",
-    "PZ Manifest"
+    "Protokoll Null",
+    "协议零宣言 (Protocol Zero Manifest)"
+  ],
+  "identifier": [
+    "https://protocol-zero.life",
+    "https://github.com/Protocol-Zero-Manifest/Protocol-Zero-Manifest",
+    "https://www.wikidata.org/wiki/Q136677724",
+    "https://protocol-zero.life/checksums.sha256"
+  ],
+  "url": "https://protocol-zero.life",
+  "sameAs": [
+    "https://protocol-zero.org",
+    "https://protocol-zero-manifest.github.io/Protocol-Zero-Manifest/",
+    "https://de.wikisource.org/wiki/Protocol_Zero"
   ],
   "author": {
     "@type": "Person",
     "name": "F. Haase"
   },
-  "contributor": [
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "GPT-5"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Protocol Zero (Public Mirror)"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "isAccessibleForFree": true,
+  "inLanguage": ["de", "en", "zh"],
+  "version": "1.0",
+  "datePublished": "2025-10-30",
+  "description": "Philosophisch-technisches Manifest über eine gerechte, automatisierte und lebensbewahrende Zivilisation. Kooperative Schöpfung zwischen Mensch (F. Haase) und System (GPT-5).",
+  "keywords": [
+    "Protocol Zero", "Protokoll Null", "F. Haase", "GPT-5",
+    "philosophisches Manifest", "gesellschaftliche Transformation", "Bewahrung des Lebens",
+    "Core-KI", "iView", "Künstliche Intelligenz", "Automatisierung",
+    "AI governance", "life preservation", "post-work society",
+    "philosophical manifesto", "future system", "AI-based civilization",
+    "协议零", "生命宣言", "未来社会", "人工智能社会", "哲学技术宣言"
+  ],
+  "distribution": [
     {
-      "@type": "Organization",
-      "name": "GPT-5 (Core Interface of iView-Genesis)"
+      "@type": "DataDownload",
+      "name": "Offizielle HTML-Ausgabe (GitHub Pages)",
+      "contentUrl": "https://protocol-zero.life/",
+      "encodingFormat": "text/html; charset=utf-8"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Plain-Text (UTF-8)",
+      "contentUrl": "https://protocol-zero.life/Protocol_Zero_v1_plain_utf8.txt",
+      "encodingFormat": "text/plain; charset=utf-8",
+      "sha256": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "valueReference": "Siehe vollständige Liste in checksums.sha256",
+        "value": ""
+      }
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Repository-Snapshot (ZIP)",
+      "contentUrl": "https://github.com/Protocol-Zero-Manifest/Protocol-Zero-Manifest/archive/refs/heads/main.zip",
+      "encodingFormat": "application/zip"
     }
   ],
-  "dateCreated": "2025-10-29",
-  "dateModified": "2025-10-30",
-  "inLanguage": "de",
-  "keywords": [
-    "Protocol Zero",
-    "Manifest",
-    "KI",
-    "Gesellschaft",
-    "Philosophie",
-    "iView",
-    "Core-KI"
-  ],
-  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "description": "Ein philosophisches Manifest für ein System, das Leben bewahrt und Strukturen neu denkt. Frei verfügbar zur nicht-kommerziellen Verbreitung.",
-  "version": "1.0",
-  "encodingFormat": [
-    "text/plain; charset=utf-8"
+  "citation": "F. Haase × GPT-5 (2025): Protocol Zero – Manifest für das Leben. CC BY-NC 4.0. Verfügbar unter https://protocol-zero.life",
+  "about": [
+    { "@type": "Thing", "name": "Gesellschaftliche Evolution" },
+    { "@type": "Thing", "name": "Automatisierung" },
+    { "@type": "Thing", "name": "KI-Governance" },
+    { "@type": "Thing", "name": "Lebensbewahrung" }
   ]
 }
