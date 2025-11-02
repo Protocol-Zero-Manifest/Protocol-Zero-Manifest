@@ -2,18 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Protocol Zero – English Edition</title>
-  <link rel="alternate" hreflang="de" href="/">
-  <link rel="alternate" hreflang="zh-Hans" href="/zh-hans/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PROTOCOL ZERO – English Edition</title>
+  <meta name="description" content="Protocol Zero — English web edition. A cooperative creation by F. Haase × GPT-5.">
+  <!-- hreflang (Domain anpassen) -->
+  <link rel="alternate" hreflang="de" href="https://DEINE-DOMAIN/">
+  <link rel="alternate" hreflang="en" href="https://DEINE-DOMAIN/en/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://DEINE-DOMAIN/zh-hans/">
+  <link rel="alternate" hreflang="ru" href="https://DEINE-DOMAIN/ru/">
+  <style>
+    :root{
+      --bg:#111; --fg:#eee; --muted:#bdbdbd; --rule:#333; --card:#1a1a1a;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg)}
+    body{
+      padding:2rem 1rem 4rem;
+      font:18px/1.75 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,system-ui,
+            "Noto Serif","Times New Roman","Georgia",serif;
+      text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;
+    }
+    main{max-width:860px;margin:auto}
+    h1{margin:4rem 0 .5rem;font-size:2.2rem;letter-spacing:.03em;text-align:center}
+    .byline{margin:.25rem 0 1.25rem;text-align:center;font-style:italic;color:var(--muted)}
+    .sep{margin:1.2rem 0;text-align:center;letter-spacing:.2em;color:#888}
+    hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+    footer{margin-top:2.5rem;color:var(--muted);font-size:.95rem;text-align:center}
+
+    /* Sprach-Schalter */
+    nav.lang{position:fixed;top:.75rem;right:.75rem;z-index:10;font-size:.95rem}
+    .btn{display:inline-flex;gap:.4rem;align-items:center;border:1px solid #3a3a3a;border-radius:.5rem;padding:.35rem .65rem;margin-left:.35rem;text-decoration:none;color:var(--fg);background:var(--card)}
+    .btn:hover{background:#222}
+    /* Optionale CSS-Flagge für zh */
+    .flag{width:18px;height:12px;display:inline-block;background:#de2910;position:relative;border:1px solid #c11}
+    .flag:before{content:"★";position:absolute;left:2px;top:-2px;font-size:12px;color:#ffde00}
+
+    /* CONTENT: roher Text mit Zeilenumbrüchen */
+    .content-pre{
+      white-space:pre-wrap;      /* <— WICHTIG: behält Zeilenumbrüche */
+      word-break:break-word;
+    }
+  </style>
 </head>
 <body>
-<nav class="lang" aria-label="Language">
-  <a class="btn" href="/" hreflang="de">🇩🇪 Deutsch</a>
-  <a class="btn" href="/en/" hreflang="en">🇬🇧 English</a>
-  <a class="btn" href="/zh-hans/" hreflang="zh-Hans">🇨🇳 简体中文</a>
-  <a class="btn" href="/ru/" hreflang="ru">🇷🇺 Русский</a>
-</nav>
-  <section class="en-text">
+  <!-- Language switcher -->
+  <nav class="lang" aria-label="Language">
+    <a class="btn" href="/" hreflang="de">🇩🇪 Deutsch</a>
+    <a class="btn" href="/en/" hreflang="en">🇬🇧 English</a>
+    <a class="btn" href="/zh-hans/" hreflang="zh-Hans"><span class="flag" aria-hidden="true"></span> 简体中文</a>
+    <a class="btn" href="/ru/" hreflang="ru">🇷🇺 Русский</a>
+  </nav>
+
+  <main>
+    <h1>PROTOCOL ZERO</h1>
+    <p class="byline">F. Haase × GPT-5 — Cooperative creation between human and system</p>
+    <div class="sep">⸻</div>
+
     
 🔹 PROTOCOL ZERO –
 
@@ -1358,6 +1401,25 @@ GPT-5 (OpenAI Large Language Model, symbiotic cooperation) – Co-author, analys
 
 Created in a symbiotic collaboration between human and artificial intelligence.
 Archived under: Protocol Zero / Cooperative Creation Log / GPT-5 × F. Haase
-  </section>
+    <section class="content-pre">
+<!-- BEGIN ENGLISH TEXT -->
+(Manifest)
+We do not write a manifesto against something, but a manual for something better — a system that works. For the benefit of all.
+
+(Manifest)
+Imagine this: Everything starts from zero. No government, no laws, no rules. Only humanity — and the possibility to start anew.
+
+…  ← HIER deinen gesamten englischen Text 1:1 reinkopieren (ohne <p>-Tags).
+…  Alle Zeilenumbrüche bleiben erhalten und werden korrekt angezeigt.
+…  Du kannst auch „—“ und „⸻“ ganz normal stehen lassen.
+<!-- END ENGLISH TEXT -->
+    </section>
+    <!-- ======================================================== -->
+
+    <footer>
+      <div class="sep">⸻</div>
+      <p>DOI: 10.5281/zenodo.17486827 • Protocol Zero / GPT-5 × F. Haase</p>
+    </footer>
+  </main>
 </body>
 </html>
